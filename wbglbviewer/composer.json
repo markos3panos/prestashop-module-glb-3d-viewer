@@ -1,0 +1,12 @@
+{
+  "name": "markos3panos/wbglbviewer",
+  "description": "Attach a .glb file to each product and show an interactive 3D viewer on the product page.",
+  "type": "prestashop-module",
+  "license": "AFL-3.0",
+  "autoload": {
+    "psr-4": {
+      "Wbglbviewer\\": "src/"
+    }
+  },
+  "require": {}
+}

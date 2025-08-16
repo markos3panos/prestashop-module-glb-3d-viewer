@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `PREFIX_wbglbviewer` (
+  `id_product` INT UNSIGNED NOT NULL,
+  `glb_path` VARCHAR(255) NOT NULL,
+  `active` TINYINT(1) NOT NULL DEFAULT 1,
+  `updated_at` DATETIME NOT NULL,
+  PRIMARY KEY (`id_product`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
